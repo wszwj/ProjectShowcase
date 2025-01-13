@@ -34,7 +34,7 @@ header {
 
 .head {
     position: relative;
-    max-width: 1600px;
+    max-width: 1680px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -87,15 +87,29 @@ header {
 }
 
 main {
-    width: 90%;
-    max-width: 1600px;
+    width: 100%;
     min-height: 84vh;
 }
 
 main h1 {
     border-left: 5px solid #cd4444;
     padding-left: 10px;
-    margin: 60px 0 0 20px;
+    margin: 20px 0 10px 20px;
+}
+
+section{
+    width: 100%;
+    padding: 20px 0;
+}
+
+section:nth-child(2n){
+    background-color: #eee;
+}
+
+.section-box{
+    margin: auto;
+    width: 90%;
+    max-width: 1600px;
 }
 
 .list {
@@ -112,8 +126,6 @@ main h1 {
 
 .item:hover {
     transform: scale(1.01);
-    /* border-radius: 5px; */
-    /* box-shadow: 0 0 10px 1px rgb(0 0 0 / 10%); */
     transition: All .3s ease-in-out;
 }
 
@@ -194,8 +206,8 @@ main h1 {
 }
 
 .desc-text {
-    padding: 5px 0;
-    min-height: 80px;
+    padding: 3px 0;
+    min-height: 50px;
 }
 
 .desc-text p {
