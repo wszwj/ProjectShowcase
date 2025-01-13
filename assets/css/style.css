@@ -119,7 +119,7 @@ main h1 {
 
 
 .img-box {
-    height: 250px;
+    height: 200px;
     overflow: hidden;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
 }
@@ -143,6 +143,7 @@ main h1 {
 .item img,
 .mitem img {
     width: 100%;
+    min-height: 100%;
     cursor: zoom-in;
 }
 
